@@ -60,3 +60,4 @@ typings/
 # app
 src/config.js
 public/dist/
+server/firebase-adminsdk.json

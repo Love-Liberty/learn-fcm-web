@@ -12,3 +12,7 @@ messaging.requestPermission().then(() => {
 }).catch(err => {
   console.error('Unable to get permission to notify.', err);
 });
+
+messaging.onMessage(function(payload) {
+  console.log("Message received. ", payload);
+});
