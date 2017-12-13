@@ -1,0 +1,24 @@
+{
+  "name": "learn-fcm-web",
+  "version": "1.0.0",
+  "description": "Learning Firebase Cloud Messaging for Web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "url": "https://github.com/ramadani/learn-fcm-web.git",
+    "type": "git"
+  },
+  "author": "Ramadani <email.ramadani@gmail.com>",
+  "license": "none",
+  "devDependencies": {
+    "laravel-mix": "^1.7.2"
+  },
+  "dependencies": {
+    "firebase": "^4.8.0"
+  }
+}

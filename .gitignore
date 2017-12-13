@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# app
+src/config.js
+public/dist/
