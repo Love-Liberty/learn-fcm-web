@@ -7,11 +7,11 @@ Learn Firebase Cloud Messaging for Web (Javascript)
 * run `npm install -g serve` to install serve.
 * run `npm run build` for generating client's assets.
 * for client run this `serve public -p 8000` command on the terminal.
-* download your service-account.json from firebase console, then paste it to `/server` dir.
+* download your `service-account.json` from firebase console, then paste it to `/server` dir.
 
 ## Test FCM
 * `node server/single.js <TOKEN_DESTINATION>`
-* `node server/multiple.js <TOKEN_DESTINATION_1>, <TOKEN_DESTINATION_2>, <TOKEN_DESTINATION_N>`
+* `node server/multiple.js <TOKEN_DESTINATION_1> <TOKEN_DESTINATION_2> <TOKEN_DESTINATION_N>`
 
 ## References
 

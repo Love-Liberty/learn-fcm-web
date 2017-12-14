@@ -13,7 +13,8 @@ console.log(tokens);
 let payload = {
   notification: {
     title: "Firebase Cloud Messaging - Multiple",
-    body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
+    body: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+    click_action: 'https://dummypage.com'
   }
 };
 
