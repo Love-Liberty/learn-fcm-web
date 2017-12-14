@@ -11,3 +11,9 @@ Learn Firebase Cloud Messaging for Web (Javascript)
 
 ## Test FCM
 * `node server/single.js <TOKEN_DESTINATION>`
+* `node server/multiple.js <TOKEN_DESTINATION_1>, <TOKEN_DESTINATION_2>, <TOKEN_DESTINATION_N>`
+
+## References
+
+* [Firebase Cloud Messaging Documentation](https://firebase.google.com/docs/cloud-messaging/index)
+* [Firebase Cloud Messaging Quickstart](https://github.com/firebase/quickstart-js/tree/master/messaging)
