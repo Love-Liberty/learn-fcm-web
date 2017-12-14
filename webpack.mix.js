@@ -12,6 +12,7 @@ let mix = require('laravel-mix');
  */
 
 mix.js('src/app.js', 'public/dist/');
+mix.js('src/fcm-sw-script.js', 'public/dist/');
 
 // Full API
 // mix.js(src, output);

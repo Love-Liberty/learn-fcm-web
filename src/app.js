@@ -9,6 +9,7 @@ messaging.requestPermission().then(() => {
   return messaging.getToken();
 }).then(token => {
   console.log('Token: ', token);
+  document.getElementById('token').innerText = token;
 }).catch(err => {
   console.error('Unable to get permission to notify.', err);
 });
