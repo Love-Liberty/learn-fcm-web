@@ -1,4 +1,3 @@
 {
-    "/public/dist/app.js": "/public/dist/app.js",
-    "/public/dist/fcm-sw-script.js": "/public/dist/fcm-sw-script.js"
+    "/public/dist/app.js": "/public/dist/app.js"
 }
